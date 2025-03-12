@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        header {
+            background-color: blue;
+            padding: 20px;
+        }
+        nav {
+            background-color: red;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        section {
+            padding: 20px;
+            background-color: green;
+        }
+
+        article {
+            padding: 20px;
+            background-color: greenyellow;
+
+        }
+        article.another{
+            background-color: pink;
+        }
+        article.third{
+            background-color: skyblue;
+        }
+
+        aside {
+            padding: 20px;
+            background-color: blanchedalmond;
+        }
+
+        footer {
+            padding: 20px;
+            background-color: purple;
+        }
+
+        content {
+            display: flex;
+        }
+
+        section {
+            flex: 1;
+        }
+        body{
+            text-align: center;
+            padding:5%;
+        }
+        text{
+            margin: 20px;   
+            display: block;
+            font-size:30px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <text>
+        페이지 레이아웃 설정
+    </text>
+    <header>
+        header
+        <nav>
+            nav
+        </nav>
+    </header>
+    <content>
+        <section>
+            section
+            <article>
+                article
+            </article>
+            <article class="another">
+                article
+            </article>
+            <article class="third">
+                article
+            </article>
+
+        </section>
+        <aside>
+            aside
+        </aside>
+    </content>
+    <footer>
+footer
+    </footer>
+</body>
+
+</html>
